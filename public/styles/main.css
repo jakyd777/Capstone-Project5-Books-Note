@@ -1,0 +1,41 @@
+html {
+    display: block;
+}
+
+body {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: rgba(127, 255, 214, 0.41);
+    color: black;
+}
+.headText {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: justify;
+    margin: 0px auto;
+}
+.headText p {
+    margin: 0px 0px;
+}
+.booksBlock {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: justify;
+    margin: 10px auto;
+}
+.book {
+    border-radius: 5px;
+
+}
+.book>img {
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-right: 50px;
+}
